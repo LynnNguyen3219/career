@@ -30,3 +30,15 @@ a:hover{
     color:rgb(80, 224, 208);
     transform: scale(1.04);
 }
+
+.column {
+  background-color: rgba(36, 54, 52, 0.7);
+  padding: 0.3rem 1.5rem;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.home-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
