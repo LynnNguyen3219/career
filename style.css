@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    background-color: rgba(20, 33, 31, 0.85);
+    background-color: rgba(20, 33, 31, 0.95);
     color: #ffffff;
     border-radius: 20px;
     margin: 15px;
@@ -19,7 +19,7 @@ body{
 .nav-link{
     transition: transform 0.3s ease;
     display: inline-block;
-    background-color: rgba(20, 33, 31, 0.85);
+    background-color: rgba(20, 33, 31, 0.95);
     border-radius: 10px;
     padding: 3px 5px
 }
@@ -30,7 +30,7 @@ body{
 }
 
 .column {
-  background-color: rgba(20, 33, 31, 0.85);
+  background-color: rgba(20, 33, 31, 0.95);
   padding: 0.3rem 1.5rem;
   border-radius: 15px;
   color: #ffffff;
