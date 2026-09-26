@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/bkg.gif);
+    background-image: url(./images/background.gif);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -16,9 +16,7 @@ body{
     padding: 0.3rem 1.5rem;
 }
 
-a{
-    color: #ffffff;
-    text-decoration: none;
+.nav-link{
     transition: transform 0.3s ease;
     display: inline-block;
     background-color: rgba(36, 54, 52, 0.7);
@@ -26,7 +24,7 @@ a{
     padding: 3px 5px
 }
 
-a:hover{
+.nav-link:hover{
     color:rgb(80, 224, 208);
     transform: scale(1.04);
 }
@@ -36,9 +34,27 @@ a:hover{
   padding: 0.3rem 1.5rem;
   border-radius: 15px;
   color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.column:hover {
+  background-color: rgba(36, 54, 52, 0.7);
+  padding: 0.3rem 1.5rem;
+  border-radius: 15px;
+  color: #ffffff;
+  transform: scale(1.04);
 }
 
 .home-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color:rgb(80, 224, 208);
 }
