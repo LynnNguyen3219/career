@@ -1,6 +1,5 @@
 body{
     background-image: url(./images/background.gif);
-    background-image: url(./images/background.gif);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,7 +17,6 @@ body{
 }
 
 .nav-link{
-.nav-link{
     transition: transform 0.3s ease;
     display: inline-block;
     background-color: rgba(28, 46, 43, 0.75);
@@ -27,7 +25,6 @@ body{
     font-size:22px;
 }
 
-.nav-link:hover{
 .nav-link:hover{
     color:rgb(80, 224, 208);
     transform: scale(1.04);
