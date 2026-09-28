@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/bkg.gif);
+    background-image: url(./images/background.gif);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -9,36 +9,79 @@ body{
 }
 
 .container{
-    background-color: rgba(36, 54, 52, 0.7);
+    background-color: rgba(28, 46, 43, 0.75);
     color: #ffffff;
     border-radius: 20px;
     margin: 15px;
     padding: 0.3rem 1.5rem;
 }
 
-a{
-    color: #ffffff;
-    text-decoration: none;
+.nav-link{
     transition: transform 0.3s ease;
     display: inline-block;
-    background-color: rgba(36, 54, 52, 0.7);
+    background-color: rgba(28, 46, 43, 0.75);
     border-radius: 10px;
-    padding: 3px 5px
+    padding: 3px 5px;
+    font-size:22px;
 }
 
-a:hover{
+.nav-link:hover{
     color:rgb(80, 224, 208);
     transform: scale(1.04);
 }
 
 .column {
-  background-color: rgba(36, 54, 52, 0.7);
+  background-color: rgba(28, 46, 43, 0.75);
   padding: 0.3rem 1.5rem;
   border-radius: 15px;
   color: #ffffff;
+  transition: transform 0.3s ease;
+  min-width: 250px;
+  box-sizing: border-box;
+}
+
+.column:hover {
+  transform: scale(1.02);
 }
 
 .home-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  width: 93%;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color:rgb(80, 224, 208);
+}
+
+h1{
+    text-align: center;
+    font-size: 27px;
+}
+
+.center-link {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 23px;
+}
+
+table{
+    color: #ffffff;
+    margin: 5px 35px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    text-align: left;
 }
