@@ -86,19 +86,8 @@ th, td {
     text-align: left;
 }
 
-.pdf-container {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto; 
-  aspect-ratio: 3 / 4; 
-}
-
-.pdf-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
+ul {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
 }
